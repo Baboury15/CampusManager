@@ -4,9 +4,9 @@ import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/main';
 import { Link } from 'react-router-dom';
 import  Home from './components/Home';
-//import Contact from './components/contact'
-//import  StudentList from './components/StudentList';
-//import CampusList from './components/campusList'
+import Contact from './components/contact'
+import  StudentList from './components/StudentList';
+import CampusList from './components/campusList' 
 
 class App extends Component {
 
@@ -19,8 +19,12 @@ class App extends Component {
             <Navigation>
             <Link to="/Home">Home</Link>
                 <Link to="/StudentList">Student list</Link>
-                <Link to="/campusList">Campus list</Link>
                 <Link to="/contact">Contact</Link>
+                <Link to="/campusList//CampusStudents">Campus list</Link>
+                <Link to="/CampusStudents">Campus student</Link>
+
+
+
 
             </Navigation>
         </Header>
@@ -36,6 +40,8 @@ class App extends Component {
             <div className="page-content" />
             
             <Main/>
+          
+            
          
            
             <div/>

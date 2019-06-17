@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 
 
-
-
-
 class CampusList extends Component {
   render() {
     return(
